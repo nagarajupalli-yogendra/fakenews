@@ -60,9 +60,9 @@ def train_model():
     
     try:
         # Load the datasets
-        fake_df = pd.read_csv(r'C:\Users\Admin\OneDrive\Desktop\Yogendra\Fake.csv')
+        fake_df = pd.read_csv(r'C:\Users\Admin\OneDrive\Desktop\Fake.xlsx')
         fake_df['label'] = 1
-        true_df = pd.read_csv(r'C:\Users\Admin\OneDrive\Desktop\Yogendra\True.csv')
+        true_df = pd.read_csv(r'C:\Users\Admin\OneDrive\Desktop\True.xlsx')
         true_df['label'] = 0
         
     except FileNotFoundError as e:
